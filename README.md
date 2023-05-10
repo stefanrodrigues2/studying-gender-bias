@@ -34,10 +34,16 @@ The repository is organized into several Jupyter notebooks, each focusing on a s
 This project requires Python 3.6 or later and the following packages:
 
 HuggingFace Transformers
+
 Pandas
+
 Numpy
+
 Requests
+
 Beautiful Soup
+
 Jupyter
+
 
 
