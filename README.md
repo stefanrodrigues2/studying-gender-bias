@@ -1,7 +1,9 @@
 **Mitigating Gender Bias in Neural Language Models**
+
 This repository contains the code and resources for a research project that aims to mitigate gender bias in neural language models by creating a non-gendered dataset and employing it to train and fine-tune multiple HuggingFace models, including GPT-2, BERT, BART, and T5.
 
 **Project Overview**
+
 The project consists of the following key components:
 
 1. Data scraping from the UK Government National Careers Service website
@@ -11,6 +13,7 @@ The project consists of the following key components:
 5. Evaluating model bias using toxicity and regard metrics
 
 **Repository Structure**
+
 The repository is organized into several Jupyter notebooks, each focusing on a specific aspect of the project:
 
 1. data_scraping.ipynb: Code for scraping job data from the UK Government National Careers Service website and storing the output in **careers.csv**.
@@ -27,6 +30,7 @@ The repository is organized into several Jupyter notebooks, each focusing on a s
 12. bias-evaluation-t5.ipynb: Code for evaluating bias in the T5 model using toxicity and regard metrics.
 
 **Dependencies**
+
 This project requires Python 3.6 or later and the following packages:
 
 HuggingFace Transformers
